@@ -25,6 +25,7 @@ namespace ProyectoTest.Controllers
         }
 
         //VISTA
+        
         public ActionResult Producto(int idproducto = 0)
         {
             if (Session["Usuario"] == null)
@@ -78,11 +79,6 @@ namespace ProyectoTest.Controllers
             return View();
         }
 
-
-
-
-
-
         [HttpPost]
         public JsonResult ListarProducto(int idcategoria = 0)
         {
@@ -105,8 +101,9 @@ namespace ProyectoTest.Controllers
                           Activo = o.Activo
                       }).ToList();
 
-            if (idcategoria != 0){
-                oLista = oLista.Where(x => x.oCategoria.IdCategoria == idcategoria).ToList() ;
+            if (idcategoria != 0)
+            {
+                oLista = oLista.Where(x => x.oCategoria.IdCategoria == idcategoria).ToList();
             }
 
             var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
@@ -116,6 +113,11 @@ namespace ProyectoTest.Controllers
             return json;
         }
 
+
+
+
+
+
         [HttpGet]
         public JsonResult ListarCategoria()
         {
@@ -123,6 +125,8 @@ namespace ProyectoTest.Controllers
             oLista = CategoriaLogica.Instancia.Listar();
             return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
         }
+
+        
 
         [HttpPost]
         public JsonResult InsertarCarrito(Carrito oCarrito)

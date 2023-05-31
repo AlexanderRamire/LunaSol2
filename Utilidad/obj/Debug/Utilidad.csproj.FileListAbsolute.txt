@@ -1,0 +1,6 @@
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\bin\Debug\Utilidad.dll
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\bin\Debug\Utilidad.pdb
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\obj\Debug\Utilidad.csproj.AssemblyReference.cache
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\obj\Debug\Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\obj\Debug\Utilidad.dll
+C:\Users\EXPERIS-LUIS\Documents\GitHub\LunaSol2\Utilidad\obj\Debug\Utilidad.pdb

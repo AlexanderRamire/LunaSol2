@@ -1,4 +1,6 @@
-﻿@{
+﻿
+@{
+    
     ViewBag.Title = "Home Page";
 }
 
@@ -50,6 +52,15 @@
         </div>
     </div>
 </div>
+<div class="float-md">
+
+    <h3>Graficos Maestros</h3>
+    <div id="container" class="col-12"></div>
+
+
+
+</div>
+
 @section scripts{
 
     <script>
@@ -61,7 +72,7 @@
                 dataType: "json",
                 contentType: "application/json; charset=utf-8",
                 success: function (data) {
-                  
+
                     if (data.data != null) {
                         $("#total-productos").text(data.data.length);
                     }
@@ -115,4 +126,9 @@
         })
     </script>
 
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script src="~/Scripts/Dona.js"></script>
 }

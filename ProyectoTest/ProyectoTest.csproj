@@ -196,7 +196,6 @@
     <Compile Include="Models\Marca.cs" />
     <Compile Include="Models\Producto.cs" />
     <Compile Include="Models\Provincia.cs" />
-    <Compile Include="Models\SerieBarra.cs" />
     <Compile Include="Models\serieDona.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -383,6 +382,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Imagenes\Detalle\ban1.jpg" />
+    <Content Include="Imagenes\Detalle\ban2.png" />
+    <Content Include="Imagenes\Detalle\ban3.jpg" />
+    <Content Include="Imagenes\Detalle\ban4.png" />
+    <Content Include="Imagenes\Detalle\ban5.png" />
+    <Content Include="Imagenes\Detalle\ban6.jpg" />
+    <Content Include="Imagenes\Detalle\ban7.png" />
+    <Content Include="Imagenes\login\leyendo.jpg" />
+    <Content Include="Imagenes\login\logo-libro.jpg" />
     <Content Include="Imagenes\Productos\1.jpg" />
     <Content Include="Imagenes\Productos\10.jpg" />
     <Content Include="Imagenes\Productos\11.jpg" />
@@ -411,7 +419,10 @@
     <Content Include="Imagenes\Productos\9.jpg" />
     <Content Include="Imagenes\Tarjetas\master.png" />
     <Content Include="Imagenes\Tarjetas\visa.png" />
-    <Content Include="Scripts\Barras.js" />
+    <Content Include="Imagenes\tienda\fondo1.jpg" />
+    <Content Include="Imagenes\tienda\libro1.jpg" />
+    <Content Include="Imagenes\tienda\libro2.jpg" />
+    <Content Include="Imagenes\tienda\libro3.jpg" />
     <Content Include="Scripts\bootstrap-confirmation.min.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
